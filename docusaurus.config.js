@@ -9,7 +9,6 @@ const config = {
   title: "Melih's Site",
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
-  onBrokenLinks: 'ignore',
 
   // Set the production url of your site here
   url: 'https://melihsavdert.netlify.app',
@@ -22,7 +21,8 @@ const config = {
   organizationName: 'msavdert', // Usually your GitHub org/user name.
   projectName: 'docusaurus-melih', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  // onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
