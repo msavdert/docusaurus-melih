@@ -9,6 +9,7 @@ const config = {
   title: "Melih's Site",
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
+  onBrokenLinks: 'ignore'
 
   // Set the production url of your site here
   url: 'https://melihsavdert.netlify.app',
