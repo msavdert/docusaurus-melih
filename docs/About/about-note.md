@@ -1,5 +1,5 @@
 ---
-slug: about
+slug: /
 sidebar_position: 1
 title: About these notes
 ---
