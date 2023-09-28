@@ -48,6 +48,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -139,6 +140,12 @@ const config = {
         appId: 'W3BZ9UGI06',
         apiKey: '9d4ee7fe43c560acfd19f355bb53acff',
         indexName: 'docusaurus-melih'
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
       },
     }),
 };

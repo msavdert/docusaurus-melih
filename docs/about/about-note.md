@@ -14,4 +14,4 @@ The actual notes are versioned in [this GitHub repository](https://github.com/m
 
 # Build your own
 
-If you're interested in creating a website just like this one, we've got you covered! Our blog post [here](blog/2023/09-28-build-your-own-website/index.md) walks you through the step-by-step process of building a similar site. From design choices to code implementation, we share insights and tips to help you create your own impressive online presence. Dive into the world of web development and bring your ideas to life!
+If you're interested in creating a website just like this one, we've got you covered! Our blog post [Build Your Own Docusaurus Website](../2023/09-28-build-your-own-website/index.md) walks you through the step-by-step process of building a similar site. From design choices to code implementation, we share insights and tips to help you create your own impressive online presence. Dive into the world of web development and bring your ideas to life!
