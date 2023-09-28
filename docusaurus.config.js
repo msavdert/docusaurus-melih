@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Melih's Site",
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Notes regarding things I have learned',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/msavdert/docusaurus-melih/',
+            'https://github.com/msavdert/docusaurus-melih/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/msavdert/docusaurus-melih/',
+            'https://github.com/msavdert/docusaurus-melih/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -59,7 +59,7 @@ const config = {
       }),
     ],
   ],
-
+  // plugins: ['my-loaders', 'tailwind-loader'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -134,6 +134,11 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        appId: 'W3BZ9UGI06',
+        apiKey: '9d4ee7fe43c560acfd19f355bb53acff',
+        indexName: 'docusaurus-melih'
       },
     }),
 };
