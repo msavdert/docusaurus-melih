@@ -147,9 +147,6 @@ const config = {
         },
       },
     }),
-    plugins: [
-      path.resolve(__dirname, './goatcounter-plugin'),
-    ],
 };
 
 module.exports = config;
