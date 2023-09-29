@@ -60,9 +60,7 @@ const config = {
       }),
     ],
   ],
-  plugins: [
-    path.resolve(__dirname, 'goatcounter-plugin.js'),
-  ],
+  plugins: ['./goatcounter-plugin'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
