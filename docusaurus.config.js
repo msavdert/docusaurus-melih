@@ -61,6 +61,7 @@ const config = {
     ],
   ],
   // plugins: ['my-loaders', 'tailwind-loader'],
+  plugins: ['docusaurus-plugin-goatcounter'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -147,8 +148,10 @@ const config = {
           autoCollapseCategories: true,
         },
       },
+      goatcounter: {
+        code: 'docusaurus-melih',
+      },
     }),
 };
 
 module.exports = config;
-
