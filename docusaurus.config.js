@@ -146,10 +146,10 @@ const config = {
           autoCollapseCategories: true,
         },
       },
-      plugins: [
-        path.resolve(__dirname, './goatcounter-plugin'),
-      ],
     }),
+    plugins: [
+      path.resolve(__dirname, './goatcounter-plugin'),
+    ],
 };
 
 module.exports = config;
