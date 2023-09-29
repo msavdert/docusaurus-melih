@@ -1,0 +1,2 @@
+[[plugins]]
+  package = "docusaurus-plugin-goatcounter"
