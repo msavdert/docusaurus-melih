@@ -61,7 +61,7 @@ const config = {
     ],
   ],
   plugins: [
-    path.resolve(__dirname, './goatcounter-plugin'),
+    path.resolve(__dirname, 'goatcounter-plugin.js'),
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
