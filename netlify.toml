@@ -1,2 +1,2 @@
-[[plugins]]
-  package = "docusaurus-plugin-goatcounter"
+[build.environment]
+  NODE_ENV = "production"
